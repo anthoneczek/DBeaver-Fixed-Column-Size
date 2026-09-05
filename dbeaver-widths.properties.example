@@ -1,0 +1,27 @@
+# Fixed result-grid column widths for DBeaver.
+#
+# Copy this file to your home directory as   dbeaver-widths.properties
+#   Linux / macOS : ~/dbeaver-widths.properties
+#   Windows       : C:\Users\<you>\dbeaver-widths.properties
+# (or point the patch elsewhere with -Ddbeaver.widths.file=... in dbeaver.ini)
+#
+#   key    = column header text as shown in the grid, case-insensitive
+#   value  = width in pixels, a bare integer - no "px"
+#   *      = fallback for every column without an entry of its own
+#
+# The file is read as UTF-8 and reloaded whenever it changes:
+# save it, press F5 on the grid, done. No restart.
+#
+# TRAP: a space inside a column name MUST be escaped with a backslash.
+# The .properties format ends the key at the first unescaped space, so
+#   Value Space Value2=140   is read as key "Company", value "Name=140"  -> ignored
+#   Value\ Space\ Value2=140  is correct
+# Parentheses, dots and digits need no escaping. Only spaces.
+#
+# Errors here are silent: a bad value just means that column keeps the width
+# DBeaver computed for it.
+
+# Default for anything not listed below. Comment it out to leave unlisted
+# columns to DBeaver's own calculation.
+
+Example\ Value=110
