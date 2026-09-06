@@ -6,9 +6,7 @@ small patch that makes it read the widths from a config file instead.
 
 Related feature requests, all declined or unimplemented:
 [#41318](https://github.com/dbeaver/dbeaver/issues/41318),
-[#22452](https://github.com/dbeaver/dbeaver/issues/22452),
-[#11485](https://github.com/dbeaver/dbeaver/issues/11485),
-[#18627](https://github.com/dbeaver/dbeaver/issues/18627).
+[#11485](https://github.com/dbeaver/dbeaver/issues/11485)
 
 > **This is an unofficial patch of an installed application.** It modifies one
 > class inside one plugin jar of your DBeaver installation. It is not affiliated
