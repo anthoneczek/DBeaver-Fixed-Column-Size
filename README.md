@@ -24,6 +24,8 @@ You write a file like this:
 id=55
 example_value=140
 example\ value\ with\ space\ inside=190
+Coulum\ A=200
+Column\ B=180
 ```
 
 and every result grid uses those widths, on every open, every refresh, every
