@@ -22,8 +22,8 @@ You write a file like this:
 ```properties
 *=110
 id=55
-example\ value=140
-value_2=190
+example_value=140
+example\ value\ with\ space\ inside=190
 ```
 
 and every result grid uses those widths, on every open, every refresh, every
