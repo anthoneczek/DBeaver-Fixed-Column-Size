@@ -120,7 +120,7 @@ reloads the file whenever its timestamp changes, so no restart and no `-clean`.
 format ends the key at the first unescaped space:
 
 ```properties
-Example Value =140     # WRONG: key "Company", value "Name=140" - silently ignored
+Example Value =140     # WRONG: key "Example", value "Value=140" - silently ignored
 Example\ Value=140    # correct
 ```
 
